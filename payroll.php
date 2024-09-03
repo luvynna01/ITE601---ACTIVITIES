@@ -8,7 +8,7 @@ class payroll {
 	private float $salary = 500;
 
 	public function computeNet(): float {
-	$sub = $this->salary - $this->tax;
+	return $net = $this->salary - $this->tax;
 	
 	}
 
@@ -26,7 +26,7 @@ class payroll {
 }
 
 	$payroll =  new payroll();
-	echo "Employee Name:". $payroll->getEmployeeName(); "‹br/›"; 
+	echo "Employee Name:". $payroll->getEmployeeName(). "‹br/›"; 
 	echo "Final Net:". $payroll->displayNet();
 
 ?>
