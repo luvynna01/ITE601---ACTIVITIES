@@ -27,6 +27,6 @@ class payroll {
 
 	$payroll =  new payroll();
 	echo "Employee Name:". $payroll->getEmployeeName(); "‹br/›"; 
-	echo "Final Net". $payroll->displayNet();
+	echo "Final Net:". $payroll->displayNet();
 
 ?>
