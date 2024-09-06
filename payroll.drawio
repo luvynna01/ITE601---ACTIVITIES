@@ -1,14 +1,41 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.11">
   <diagram name="Page-1" id="DolZQoLZaqcXjrVuGQjv">
-    <mxGraphModel dx="1114" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="655" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0oNOVQane-nv641L2khv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0oNOVQane-nv641L2khv-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Payroll&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="80" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0oNOVQane-nv641L2khv-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="120" width="200" height="160" as="geometry" />
+        <mxCell id="0oNOVQane-nv641L2khv-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="120" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rUS1i92A7wEvNSpwbi97-4" value="tax: 50&lt;div&gt;salary: 500&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="33" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rUS1i92A7wEvNSpwbi97-7" value="&lt;div&gt;Employee Name: John Volta&lt;/div&gt;&lt;div&gt;Net: 450&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="330" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rUS1i92A7wEvNSpwbi97-8" value="- firstname: string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rUS1i92A7wEvNSpwbi97-9" value="- lastname: string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rUS1i92A7wEvNSpwbi97-10" value="- tax: float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rUS1i92A7wEvNSpwbi97-11" value="- salary: float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rUS1i92A7wEvNSpwbi97-14" value="- computeNet(): float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rUS1i92A7wEvNSpwbi97-15" value="- computeNet(): float" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rUS1i92A7wEvNSpwbi97-16" value="- getEmployeeName(): string" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
